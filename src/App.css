@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+label {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+}
+
+.course {
+  color: #1F2667;
+  height: 40px;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+}
+
+.submit {
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #1F2667;
+  padding: 10px 20px 10px 20px;     
+}
+
+.submit:hover {
+  background-color: #0f2040; 
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin-left: 32%;
+  margin-right: 25%;
+  table-layout: auto;
+  width: 36%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  padding: 8px;
+}
+
+.firstfield {
+  width: 130px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
